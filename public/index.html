@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager - REST API Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 Task Manager</h1>
+            <p class="subtitle">A RESTful API Project</p>
+        </header>
+
+        <div class="task-form">
+            <h2>Add New Task</h2>
+            <form id="addTaskForm">
+                <input 
+                    type="text" 
+                    id="taskTitle" 
+                    placeholder="Task title..." 
+                    required
+                />
+                <textarea 
+                    id="taskDescription" 
+                    placeholder="Task description (optional)..."
+                    rows="3"
+                ></textarea>
+                <button type="submit" class="btn btn-primary">Add Task</button>
+            </form>
+        </div>
+
+        <div class="tasks-section">
+            <div class="section-header">
+                <h2>Tasks</h2>
+                <span id="taskCount" class="task-count">0 tasks</span>
+            </div>
+            <div id="tasksList" class="tasks-list">
+                <!-- Tasks will be loaded here -->
+            </div>
+        </div>
+
+        <footer>
+            <div class="api-info">
+                <h3>API Endpoints</h3>
+                <ul>
+                    <li><strong>GET</strong> /api/tasks - Get all tasks</li>
+                    <li><strong>GET</strong> /api/tasks/:id - Get a specific task</li>
+                    <li><strong>POST</strong> /api/tasks - Create a new task</li>
+                    <li><strong>PUT</strong> /api/tasks/:id - Update a task</li>
+                    <li><strong>DELETE</strong> /api/tasks/:id - Delete a task</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
