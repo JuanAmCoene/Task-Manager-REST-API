@@ -157,6 +157,33 @@ await fetch('http://localhost:3000/api/tasks', {
 - **Frontend**: HTML5, CSS3, Vanilla JavaScript
 - **Development**: Nodemon for auto-reload
 
+## 🌐 Deployment
+
+This project is configured for easy deployment on Render (free tier available).
+
+### Deploy to Render
+
+1. **Create a Render account** at [render.com](https://render.com)
+
+2. **Create a new Web Service**:
+   - Click "New +" → "Web Service"
+   - Connect your GitHub repository
+   - Render will auto-detect the settings from `render.yaml`
+
+3. **Deploy**:
+   - Click "Create Web Service"
+   - Wait for deployment (2-3 minutes)
+   - Access your live app at the provided URL!
+
+### Alternative: Deploy to Railway
+
+1. Visit [railway.app](https://railway.app)
+2. Click "Start a New Project" → "Deploy from GitHub repo"
+3. Select your repository
+4. Railway will automatically deploy it
+
+**Note**: The free tier may sleep after inactivity, but wakes up quickly when accessed.
+
 ## 🚀 Future Enhancements
 
 - [ ] Add database integration (MongoDB/PostgreSQL)
@@ -165,7 +192,6 @@ await fetch('http://localhost:3000/api/tasks', {
 - [ ] Due dates and reminders
 - [ ] Search and filter functionality
 - [ ] Unit and integration tests
-- [ ] Deployment configuration
 
 ## 📝 License
 

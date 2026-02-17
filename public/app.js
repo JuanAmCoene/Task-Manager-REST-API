@@ -1,4 +1,5 @@
-const API_URL = 'http://localhost:3000/api/tasks';
+// Use relative URL so it works in both local and production
+const API_URL = '/api/tasks';
 
 // DOM Elements
 const addTaskForm = document.getElementById('addTaskForm');
