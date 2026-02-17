@@ -2,9 +2,16 @@
 
 A full-stack Task Manager application demonstrating RESTful API principles with a clean, modern interface. Built with Node.js, Express, and vanilla JavaScript.
 
-![Project Preview](https://img.shields.io/badge/Status-Complete-success)
+## 🌐 Live Demo
+
+**👉 [View Live Application](https://task-manager-api-production-3b9b.up.railway.app/)**
+
+**API Base URL**: `https://task-manager-api-production-3b9b.up.railway.app/api/tasks`
+
+![Project Preview](https://img.shields.io/badge/Status-Live-success)
 ![Node.js](https://img.shields.io/badge/Node.js-v14+-green)
 ![Express](https://img.shields.io/badge/Express-v4.18-blue)
+![Deployment](https://img.shields.io/badge/Deployed%20on-Railway-blueviolet)
 
 ## 🚀 Features
 
